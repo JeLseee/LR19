@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #010001;
+    font-family: Roboto; /*Для всего тела задаём шрифт*/
+}
+header{ /*Задаём выравнивание и отступы для хедера, чтобы распределить по 3 позициям*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 104px;
+    margin-top: 53px;
+}
+.menu_center, .menu_right{ 
+    list-style-type: none;/*В списках убираем маркеры*/
+    display: flex;
+    align-items: center;
+    gap: 20px; /*Задаём значение расстония между li*/
+    font-size: 12px;
+}
+.menu_center{
+    color: white;
+}
+.menu_right{
+    color: #808080;
+}
+.main_text{
+    margin-top: 120px;
+    margin-bottom: 26px;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+.text{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 268px;
+    font-weight: lighter;
+    color: white;
+}
+.line{ /*Берём значения отступов из макета и задаём position*/
+    position: absolute;
+    width: 59px;
+    height: 0px;
+    left: 700px;
+    top: 400px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.planet{ /*Задаём позицию и размеры изображения*/
+    position: flex;
+    width: 100%;
+}
+.rocket{
+    float: right;
+    display: absolute;
+}
+.main_text2{
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase; /*Делаем текст заглавными буквами*/
+    max-width: 177px; /*Делаем ограничение на ширину*/
+    color: white;
+    padding-top: 492px;
+    margin-left: 149px;
+}
+.q{
+    justify-content: space-between;
+    max-width: 50%;
+    display: flex;
+}
+.option{
+    margin-left: 149px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+.option li{
+    margin-bottom: 20px; /*Для каждого li в option задаём наружный отступ*/
+}
+.info{
+    margin-left: 19px;
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+span{
+    color: #B2B0B2; /*Создаём span и задаём цвет для отдельного текста*/
+}
+.info li{
+    margin-bottom: 20px; 
+}
+
+.about{
+    color: white;
+    margin-left: 149px;
+}
+.head2{
+    margin-top: 218px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.info2{
+    margin-top: 49px;
+    font-size: 16px;
+    max-width: 490px;
+    line-height: 29px;
+}
+/*Берём значения из макета и задаём всем*/
+footer img{
+    position: absolute;
+    top: 3208px;
+    left: 651px;
+    margin-bottom: 334px;
+}
+.foot_menu{
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    gap: 20px;
+    top: 3268px;
+    left: 448px;
+    margin-bottom: 270px;
+    margin: 0 auto;
+}
+.foot_text{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    color: #808080;
+    top: 3317px;
+    left: 492px;
+    width: 455px;
+    margin-top: 0;
+}
+.button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 590px;
+    top: 3368px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 131px;
+}
+.button_text{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+/**/
